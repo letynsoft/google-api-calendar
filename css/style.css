@@ -1,0 +1,89 @@
+#left-area .type-gac-calendar, #left-area .type-gac-calendar ul, .type-gac-calendar ul ul, .type-gac-calendar li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#left-area .type-gac-calendar li {
+  overflow: hidden;
+}
+.type-gac-calendar, .overlap ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.type-gac-calendar li {
+  flex-grow: 1;
+}
+.type-gac-calendar>li {
+  margin-right: 5px;
+}
+.type-gac-calendar>li:last-child {
+  margin-right: 0px;
+}
+.type-gac-calendar ul ul .clr ul {
+  flex-flow: column nowrap;
+}
+.book {
+  background: #4267B2;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: stretch;
+}
+.type-gac-calendar-container ul {
+  padding-left: 0px;
+}
+.type-gac-calendar-container .book a {
+  display: block;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 0.7em;
+}
+.type-gac-calendar-container .event-item, .type-gac-calendar-container .header {
+  padding: 5px;
+}
+.type-gac-calendar-container .header {
+  text-align: center;
+}
+
+.type-gac-calendar-container .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  min-height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background: #fff;
+  padding: 10px;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-out;
+  transform: translateY(45px);
+}
+.type-gac-calendar-container .modal.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+.one-day-users {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.bank-holidays {
+  padding-top: 50px !important;
+}
+
+.bank-holidays span {
+  display: block;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+form.booking-form ul, #left-area form.booking-form ul {
+  list-style-type: none;
+}
+form.booking-form ul .label-container {
+  display: inline-block;
+  min-width: 40%;
+}

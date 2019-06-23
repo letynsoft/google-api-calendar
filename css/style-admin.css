@@ -1,0 +1,70 @@
+li.form-condition-hidden {
+  display: none;
+}
+li.gac-form-field {
+  background: #f1f1f1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: stretch;
+}
+.draggable-handle {
+  width: 20px;
+  cursor: move;
+}
+.point-success:before {
+  content: "\2714 ";
+}
+.point-error:before {
+  content: "\2715 ";
+}
+p.note {
+  font-style: italic;
+}
+p.note:before {
+  content: "Note: ";
+}
+.postbox .calendar-postbox .label-container {
+  display: block;
+}
+.postbox .calendar-postbox .label-container, .postbox .type-radio label {
+  font-size: 1.4em;
+}
+.postbox .calendar-postbox .type-radio label + label, .postbox .type-checkboxes label + label {
+  margin-left: 15px;
+}
+.postbox .calendar-postbox .type-checkbox input {
+  margin-left: 5px;
+}
+.postbox .calendar-postbox .type-checkbox .label-container {
+  display: inline-block;
+}
+@media (min-width: 1300px) {
+  .gac-order-form-fields {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .gac-order-form-fields>li {
+    margin-left: 1.5%;
+    width: 32.3%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .gac-order-form-fields>li:nth-of-type(3n + 1) {
+      margin-left: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1299px) {
+  .gac-order-form-fields {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .gac-order-form-fields>li {
+    margin-left: 2%;
+    width: 49%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .gac-order-form-fields>li:nth-of-type(2n + 1) {
+      margin-left: 0px;
+  }
+}

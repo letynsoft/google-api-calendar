@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Calendar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 21:31+0000\n"
+"PO-Revision-Date: 2019-06-17 21:33+0000\n"
+"Last-Translator: letynsoft <letynsoft@gmail.com>\n"
+"Language-Team: Čeština\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.0.3"
+
+#: google-api-client.php:46 google-api-client.php:82
+#, php-format
+msgid "All %s"
+msgstr "Všechny %s"
+
+#: google-api-client.php:47 google-api-client.php:83
+msgid "Add New"
+msgstr "Vytvořit nový"
+
+#: google-api-client.php:48 google-api-client.php:84
+#, php-format
+msgid "Add %s"
+msgstr "Přidat %s"
+
+#: google-api-client.php:49 google-api-client.php:85
+msgid "Edit"
+msgstr "Upravit"
+
+#: google-api-client.php:50 google-api-client.php:86
+#, php-format
+msgid "Edit %s"
+msgstr "Upravit %s"
+
+#: google-api-client.php:51 google-api-client.php:87
+#, php-format
+msgid "New %s"
+msgstr "Nový %s"
+
+#: google-api-client.php:52 google-api-client.php:53 google-api-client.php:88
+#: google-api-client.php:89
+#, php-format
+msgid "View %s"
+msgstr "Zobrazit %s"
+
+#: google-api-client.php:54 google-api-client.php:90
+#, php-format
+msgid "Search %s"
+msgstr "Hledat %s"
+
+#: google-api-client.php:55 google-api-client.php:91
+#, php-format
+msgid "No %s found"
+msgstr "Žádný(é) %s nebyli nalezeny"
+
+#: google-api-client.php:56 google-api-client.php:92
+#, php-format
+msgid "No %s found in trash"
+msgstr "Žádný(é) %s nebyli nalezeny v koši"
+
+#: google-api-client.php:57 google-api-client.php:93
+#, php-format
+msgid "Parent %s"
+msgstr "Rodič %s"
+
+#: parts/help.php:6
+msgid "Google Calendar Client Help Page"
+msgstr "Nápověda pro Google Kalendář"
+
+#: parts/help.php:7
+msgid "Setup Overview"
+msgstr "Nastavení"
+
+#: parts/help.php:10
+#, php-format
+msgid ""
+"First you need to enter the <a href=\"%s\">Google API credentials</a> on the "
+"<a href=\"%s\">General options page</a>"
+msgstr ""
+"Nejdříve musíte vyplnit <a href=\"%s\">přihlášení do Google API</a> na <a "
+"href=\"%s\">stránce obecného nastavení</a>"
+
+#: parts/help.php:15
+#, php-format
+msgid "You need to <a href=\"%s\">authenticate with Google API</a>"
+msgstr "Musíte se <a href=\"%s\">authentifikovat s Google API</a>"
+
+#: parts/help.php:17
+#, php-format
+msgid "<a href=\"%s\">Create some Procedures</a>"
+msgstr "<a href=\"%s\">Vytvořte nějaké prodedůry</a>"
+
+#: parts/help.php:19
+#, php-format
+msgid "<a href=\"%s\">Create some Workers</a>"
+msgstr "<a href=\"%s\">Vytvořte Zaměstnance</a>"
+
+#: parts/help.php:21
+#, php-format
+msgid "<a href=\"%s\">Create a Calendar</a>"
+msgstr "<a href=\"%s\">Vytvořte Kalendář</a>"
+
+#: parts/help.php:23 parts/taxonomy-procedure.php:4
+msgid "Procedures"
+msgstr "Procedůry"
+
+#: parts/help.php:24
+msgid ""
+"Procedures have a field for the time it takes to make them happen and the "
+"color they should appear on the calendar."
+msgstr ""
+
+#: parts/help.php:25
+msgid "Worker Setup"
+msgstr "Nastavení Zaměstnance"
+
+#: parts/help.php:26
+msgid ""
+"Each Worker has it's settings of days and times he/she is at work, field "
+"with the Booking calendar and another field with 'Holiday calendars' in the "
+"'Calendar' block."
+msgstr ""
+
+#: parts/help.php:27
+msgid "The Booking calendar is the one where all the bookings will be created."
+msgstr ""
+
+#: parts/help.php:28
+msgid ""
+"The Holiday calendar(s) can be attached to the Worker, events added to these "
+"calendars won't be acceptable for booking for this Worker for these times."
+msgstr ""
+
+#: parts/help.php:29
+msgid ""
+"There is also a Procedures block on a side (usualy), where you attach the "
+"procedures the worker accepts."
+msgstr ""
+
+#: parts/help.php:31
+msgid ""
+"You can attach the required Workers a calendar of your choice (one Worker "
+"can be in multiple calendars)"
+msgstr ""
+
+#: parts/help.php:32
+msgid ""
+"Each calendar can also have it's own holiday calendars (eg. bank holidays)"
+msgstr ""
+
+#: parts/help.php:33
+msgid ""
+"You can choose the calendar is read only or whether the event is created "
+"immediately, with aditional admin check or only after admin accepts the "
+"event in wordpress."
+msgstr ""
+
+#: parts/help.php:34
+msgid ""
+"Calendar will show all the weekdays any Worker have attached, it will also "
+"accept any procedure any Worker has attached."
+msgstr ""
+
+#: parts/help.php:35
+msgid "The Order Form Fields"
+msgstr ""
+
+#: parts/help.php:36
+msgid "Each Calendar can have specific fields set up for it's order form."
+msgstr ""
+
+#: parts/help.php:37
+msgid "Text, Email, Number, ... are normal textual field the user can enter."
+msgstr ""
+
+#: parts/help.php:38
+msgid "Checkbox adds a confirmation box to the form."
+msgstr ""
+
+#: parts/help.php:39
+msgid "Textarea is a longer text, useful for example for address."
+msgstr ""
+
+#: parts/help.php:40
+msgid "Select is a field which when clicked presents a set of options."
+msgstr ""
+
+#: parts/help.php:41
+msgid "Radio similar to Select, but displays the options without clicking."
+msgstr ""
+
+#: parts/help.php:42
+msgid "Checkboxes similar to Radio, but allows multiple selection."
+msgstr ""
+
+#: parts/help.php:43
+msgid "Terms displays list of terms from Wordpress Taxonomy of choice."
+msgstr ""
+
+#: parts/help.php:44
+msgid "User Detail allows to show a user detail field in the form (eg. name)."
+msgstr ""
+
+#: parts/help.php:45
+msgid ""
+"User Meta adds a user specific field with the ability to store it for later "
+"orders (eg. phone number)"
+msgstr ""
+
+#: parts/calendar-form.php:8
+#, php-format
+msgid "You need to <a href=\"%s\">register first</a>"
+msgstr "Pro objednávku se prosím <a href=\"%s\">zaregistrujte</a>"
+
+#: parts/calendar-form.php:17
+msgid "Book"
+msgstr "Objednat"
+
+#: parts/calendar-form.php:27 parts/calendar-form.php:31
+msgid "We don't have data!"
+msgstr "Nemáme žádná data!"
+
+#: parts/calendar-form.php:35
+msgid "Missing params!"
+msgstr "Chybí parametry!"
+
+#: parts/calendar-form.php:38
+msgid "Missing phone"
+msgstr "Zadejte telefon, prosím"
+
+#: parts/calendar-form.php:42
+msgid "We cannot start in the past!"
+msgstr "Objednávky v minulosti nepřijímáme"
+
+#: parts/calendar-form.php:47
+msgid "Procedure doesn't have time!"
+msgstr "Procedůra nemá čas!"
+
+#: parts/calendar-form.php:52
+msgid "No employee available at this time"
+msgstr "Žádný zaměstnanec není v tomto čase dostupný."
+
+#: parts/calendar-form.php:55
+msgid "This time is already taken"
+msgstr "Tento čas je již zabraný"
+
+#: parts/calendar-form.php:72
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+#: parts/calendar-form.php:75
+msgid "Booking Created"
+msgstr "Objednávka vytvořena"
+
+#: parts/calendar-form.php:75
+#, php-format
+msgid "Your booking for %s on %s at %s was accepted"
+msgstr "Vaše objednávka služby %s dne %s v čase %s byla přijata."
+
+#: parts/calendar-form.php:110
+#, php-format
+msgid "The event was created, but it <a href=\"%s\">needs a confirmation</a>."
+msgstr "Událost byla vytvořena ale <a href=\"%s\">potřebuje potvrzení</a>."
+
+#: parts/calendar-form.php:120
+#, php-format
+msgid "The event was not created, you can <a href=\"%s\">do this here</a>."
+msgstr "Událost nabyla vytvořena, můžete <a href=\"%s\">to udělat nyní</a>"
+
+#: parts/calendar-form.php:123
+msgid "Booking accepted"
+msgstr "Objednávka přijata"
+
+#: parts/calendar-form.php:125
+msgid "Failed to create the booking"
+msgstr "Nepodařilo se vytvořit objednávku"
+
+#: parts/calendar-form.php:128
+msgid "Unknown error occurred"
+msgstr "Nastala neznámá chyba"
+
+#. Name of the plugin
+#: parts/authentication.php:35
+msgid "Google Calendar"
+msgstr "Kalendář Google"
+
+#: parts/authentication.php:37
+msgid "Client ID"
+msgstr "ID Klienta"
+
+#: parts/authentication.php:45
+msgid "Client Secret"
+msgstr "Secret Klienta"
+
+#: parts/calendar-admin.php:5
+msgid "Calendars"
+msgstr "Kalendáře"
+
+#. Unique ID
+#: parts/calendar-admin.php:6 parts/calendar-admin.php:64 parts/users.php:20
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: parts/calendar-admin.php:65
+msgid "Order Form Fields"
+msgstr ""
+
+#: parts/calendar-admin.php:139
+msgid "-- select --"
+msgstr "-- vyberte --"
+
+#: parts/calendar-admin.php:140
+msgid "Text"
+msgstr ""
+
+#: parts/calendar-admin.php:141
+msgid "Email"
+msgstr ""
+
+#: parts/calendar-admin.php:142
+msgid "Number"
+msgstr ""
+
+#: parts/calendar-admin.php:143 parts/calendar-admin.php:151
+msgid "Checkbox"
+msgstr ""
+
+#: parts/calendar-admin.php:144
+msgid "URL"
+msgstr ""
+
+#: parts/calendar-admin.php:145
+msgid "Telephone"
+msgstr ""
+
+#: parts/calendar-admin.php:146
+msgid "Date"
+msgstr "Datum"
+
+#: parts/calendar-admin.php:147
+msgid "Time"
+msgstr "Čas"
+
+#: parts/calendar-admin.php:148
+msgid "Textarea"
+msgstr ""
+
+#: parts/calendar-admin.php:149
+msgid "Select"
+msgstr ""
+
+#: parts/calendar-admin.php:150
+msgid "Radio"
+msgstr ""
+
+#: parts/calendar-admin.php:152
+msgid "Terms"
+msgstr ""
+
+#: parts/calendar-admin.php:153
+msgid "User Detail"
+msgstr ""
+
+#: parts/calendar-admin.php:154
+msgid "User Meta"
+msgstr ""
+
+#: parts/calendar-admin.php:155
+msgid "Taxonomy"
+msgstr ""
+
+#: parts/calendar-admin.php:184
+#, php-format
+msgid "You must first <a href=\"%s\">Authenticate</a>"
+msgstr "Nejdříve se musíte <a href=\"%s\">přihlásit</a>"
+
+#: parts/calendar-admin.php:187
+msgid "Clear calendar cache"
+msgstr "Smazat dočasnou paměť kalendáře"
+
+#: parts/calendar-admin.php:190 parts/calendar-shortcode.php:123
+msgid "Failed to communicate with backend, please try again later."
+msgstr "Nepodařilo se spojit s datovým servrem, zkuste to prosím později"
+
+#: parts/calendar-admin.php:218 parts/users.php:5
+msgid "Calendar Users"
+msgstr "Zaměnstanci"
+
+#: parts/calendar-admin.php:221 parts/users.php:95
+msgid "Calendar Name - Exclude"
+msgstr "Kalendáře s volnem"
+
+#: parts/calendar-admin.php:222
+msgid "Enable Create Events"
+msgstr "Povolit vytváření událostí"
+
+#: parts/calendar-admin.php:222
+msgid "Allow new events to be created in this calendar"
+msgstr "Povolit vytváření nových událostí v tomto kalendáři"
+
+#: parts/calendar-admin.php:223
+msgid "Send email to the customer"
+msgstr "Poslat email zákazníkovi"
+
+#: parts/calendar-admin.php:225
+msgid "Push the booking to the calendar immediately"
+msgstr "Posílat objednávky okamžitě do kalendáře"
+
+#: parts/calendar-admin.php:226
+msgid "Create, but confirm"
+msgstr "Vytvořit, ale potvrdit"
+
+#: parts/calendar-admin.php:227
+msgid "Require Review"
+msgstr "Vyžadovat shlédnutí"
+
+#: parts/calendar-admin.php:229
+msgid ""
+"If Enabled, the booking will have special status, but noone else would be "
+"able to book that time anymore."
+msgstr "Pokud je povoleno, objednávka bude vytvořena rovnou."
+
+#: parts/calendar-admin.php:230
+msgid ""
+"If Disabled, the booking needs to be approved first, so there may be "
+"multiple bookings for the same time."
+msgstr ""
+"Pokud je zakázáno, objednávka musí být schválena, než se ukáže v kalendáři, "
+"může vést k dvojtému objednání."
+
+#: parts/booking.php:6
+msgid "Bookings"
+msgstr "Objednávky"
+
+#: parts/booking.php:7
+msgid "Booking"
+msgstr "Objednávka"
+
+#: parts/taxonomy-procedure.php:5
+msgid "Procedure"
+msgstr "Procedůra"
+
+#: parts/taxonomy-procedure.php:39
+msgid "Length"
+msgstr "Délka"
+
+#: parts/taxonomy-procedure.php:43
+msgid "Color"
+msgstr "Barva"
+
+#: parts/taxonomy-procedure.php:61
+msgid "mins."
+msgstr "minut"
+
+#: parts/taxonomy-procedure.php:67
+msgid "-- no color (calendar default) --"
+msgstr "-- žádná barva (výchozí kalendáře) --"
+
+#: parts/users.php:6
+msgid "Calendar User"
+msgstr "Zaměstnanec"
+
+#: parts/users.php:58
+msgid "Monday"
+msgstr "Pondělí"
+
+#: parts/users.php:59
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: parts/users.php:60
+msgid "Wednesday"
+msgstr "Středa"
+
+#: parts/users.php:61
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: parts/users.php:62
+msgid "Friday"
+msgstr "Pátek"
+
+#: parts/users.php:63
+msgid "Saturday"
+msgstr "Sobota"
+
+#: parts/users.php:64
+msgid "Sunday"
+msgstr "Neděle"
+
+#: parts/users.php:73
+msgid "Start Time"
+msgstr "Začátek"
+
+#: parts/users.php:75
+msgid "End Time"
+msgstr "Konec"
+
+#: parts/users.php:85
+msgid "Calendar Name"
+msgstr "Jméno kalendáře"
+
+#: parts/calendar-shortcode.php:93
+msgid ""
+"Your registration needs email confirmation, please go to your email and "
+"confirm it is correct."
+msgstr ""
+"Vaše registrace jěstě vyžaduje potvrzení, otevřete váš email a potvrďte jeho "
+"doručení. <span style=\"color: red\">Poté se přihlašte pomocí emailové "
+"adresy</span> a vytvořeného hesla."
+
+#: parts/calendar-shortcode.php:112
+msgid "Bank holidays"
+msgstr "Svátek"
+
+#: parts/calendar-shortcode.php:185 parts/calendar-shortcode.php:218
+#: parts/calendar-shortcode.php:226
+msgid "Book here"
+msgstr "Objednat"
+
+#. Description of the plugin
+msgid ""
+"Book an appointment for an emploees, based on their google calendar (bank "
+"holidays, employee-off, ...)."
+msgstr ""
+"Vytvářet objednávky pro zaměstnance podle jejich google kalendáře. Umí "
+"zobrazit dny pracovního volna, dny kdy má zaměstnanec volno, ..."
+
+#. Author of the plugin
+msgid "LetynSOFT"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://letynsoft.com"
+msgstr ""
